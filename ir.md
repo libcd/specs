@@ -344,19 +344,17 @@ This is an example intermediate representation file (this will not actually run,
             {
                 "type": "defer",
                 "body": {
-                    {
-                        "type": "parallel",
-                        "body": [
-                            {
-                                "type": "run",
-                                "name": "contianer_0"
-                            },
-                            {
-                                "type": "run",
-                                "name": "contianer_1"
-                            }
-                        ]
-                    }
+                    "type": "parallel",
+                    "body": [
+                        {
+                            "type": "run",
+                            "name": "contianer_0"
+                        },
+                        {
+                            "type": "run",
+                            "name": "contianer_1"
+                        }
+                    ]
                 },
                 "defer": {
                     "type": "run",
