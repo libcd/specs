@@ -334,7 +334,7 @@ This is an example intermediate representation file (this will not actually run,
             "command": [
                 "/bin/sh",
                 "-c",
-                "echo 'finished build' | ./hipchat_room_message -t $TOKEN -r $ROOM",
+                "echo 'finished build' | ./hipchat_room_message -t $TOKEN -r $ROOM"
             ]
         }
     ],
