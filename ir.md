@@ -348,17 +348,17 @@ This is an example intermediate representation file (this will not actually run,
                     "body": [
                         {
                             "type": "run",
-                            "name": "contianer_0"
+                            "name": "container_0"
                         },
                         {
                             "type": "run",
-                            "name": "contianer_1"
+                            "name": "container_1"
                         }
                     ]
                 },
                 "defer": {
                     "type": "run",
-                    "name": "contianer_2"
+                    "name": "container_2"
                 }
             }
         ]
